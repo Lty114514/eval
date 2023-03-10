@@ -1,0 +1,74 @@
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  text-align: center;
+}
+
+.todo__container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 20px;
+  width: fit-content;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  justify-content: center;
+}
+.todo-list,
+.todo-list-right {
+  display: flex;
+  list-style-type: none;
+  padding: 10px;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px rgb(225, 215, 215) solid;
+  border-radius: 5px;
+  align-items: stretch;
+  min-height: 250px;
+  min-width: 355px;
+  background-color: rgb(240, 240, 240);
+}
+
+.todo-list-right {
+  margin-left: 16px;
+}
+
+.todo-list li,
+.todo-list-right li {
+  border: 1px black solid;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.todo-container {
+  display: flex;
+}
+
+.ul-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.submit {
+  background-color: #008cba;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 2px;
+  color: white;
+  cursor: pointer;
+}
+
+.enter-input {
+  outline: none;
+}
